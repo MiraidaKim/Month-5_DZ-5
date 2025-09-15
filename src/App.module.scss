@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  min-height: 100vh;
+  padding: 40px;
+  background: #ffa2c9; 
+}
+
+.switcher {
+  display: flex;
+  gap: 12px;
+
+  button {
+    padding: 8px 16px;
+    border: none;
+    background: #ffffff;
+    color: rgb(106, 33, 33);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: #40a9ff;
+    }
+  }
+}
+
+.block {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-width: 320px;
+  text-align: center;
+}
+
+input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+}
